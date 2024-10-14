@@ -2,10 +2,10 @@
   "name": "sigui.ci",
   "description": "Sigui's web application.",
   "engines": {
-    "bun": ">=1.1.21",
-    "deno": ">=1.40.2"
+    "bun": ">=1.1.30",
+    "deno": ">=2.0.0"
   },
-  "packageManager": "bun@1.0.25",
+  "packageManager": "bun@1.1.30",
   "publishConfig": {
     "access": "public"
   },
@@ -31,33 +31,34 @@
     "start": "astro dev --open"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.1",
+    "@astrojs/check": "^0.9.4",
     "@astrojs/deno": "^5.0.1",
-    "@astrojs/preact": "^3.5.1",
-    "@astrojs/rss": "^4.0.7",
-    "@astrojs/sitemap": "^3.1.6",
-    "@astrojs/tailwind": "^5.1.0",
-    "@builder.io/qwik": "^1.7.3",
+    "@astrojs/preact": "^3.5.3",
+    "@astrojs/rss": "^4.0.8",
+    "@astrojs/sitemap": "^3.2.0",
+    "@astrojs/tailwind": "^5.1.2",
+    "@builder.io/qwik": "^1.9.1",
     "@qwikdev/astro": "^0.6.3",
-    "astro": "^4.13.1",
-    "preact": "^10.23.1",
-    "tailwindcss": "^3.4.7",
-    "typescript": "^5.5.4"
+    "astro": "^4.16.3",
+    "caniuse-lite": "^1.0.30001668",
+    "preact": "^10.24.3",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.6.3"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.8.3",
+    "@biomejs/biome": "^1.9.3",
     "@types/fs-extra": "^11.0.4",
-    "@types/node": "^22.1.0",
+    "@types/node": "^22.7.5",
     "autoprefixer": "^10.4.20",
-    "bun-types": "^1.1.21",
-    "cssnano": "^7.0.4",
+    "bun-types": "^1.1.30",
+    "cssnano": "^7.0.6",
     "fs-extra": "^11.2.0",
-    "postcss": "^8.4.40",
+    "postcss": "^8.4.47",
     "postcss-import": "^16.1.0",
     "postcss-load-config": "^6.0.1",
     "postcss-nested": "^6.2.0",
     "ts-node": "^10.9.2",
-    "tslib": "^2.6.3"
+    "tslib": "^2.7.0"
   },
   "overrides": {
     "react": "npm:@preact/compat@latest",
