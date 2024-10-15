@@ -1,4 +1,4 @@
-# The @siguici web application
+# [Sigui Kessé Emmanuel](https://github.com/siguici)'s web application
 
 > [!WARNING]
 This repository is no longer maintained.
